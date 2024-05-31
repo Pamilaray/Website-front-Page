@@ -972,7 +972,7 @@ footer .Copyright {
     .intro .content, .intro .skill-list-container{
         flex-wrap: wrap;
     }
-    .intro .content .text, .intro .content .image-container, .intro .skill-list-container .skill-item{
+    .intro .content .text, .intro .content .image, .intro .skill-list-container .skill-item{
         width: 100%;
         padding: 0;
     }
@@ -1023,22 +1023,29 @@ footer .Copyright {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        padding: 0;
+        padding: 3rem 0;
     }
     
     .about > img {
         width: 100%;
+        padding-bottom: 3rem;
     }
     .about .content .stats-list-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .contact {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
     }
     .contact .content{
         /* width: 100%; */
